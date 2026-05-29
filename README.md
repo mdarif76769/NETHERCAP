@@ -1,1 +1,49 @@
 # NETHERCAP
+A full-featured Wi-Fi penetration and social engineering tool for ESP8266, ESP-32 and BW16 (RTL8720dn). Go to release page for downloads<br>
+https://github.com/Cancro29/NETHERCAP/releases<br>
+
+<a href=https://t.me/+CciATlD2mZdkZTNl>
+    <img src="images/icon_telegram.jpg" alt="Scheme" width="200"/>
+</a>
+<br>
+Please join the new NETHERCAP group on Telegram by clicking the link below<br>
+https://t.me/+V3xt1UYs8EQyZWI1
+<br>
+For now, the group can only be joined by users coming from Indonesia. Sorry if your approval is not approved.<br>
+If you are from Indonesia and your approval is still pending, contact me at https://t.me/Cancro29. 
+<br><br>
+<a href=https://www.youtube.com/channel/UCpObidygxjgvrhPlzF5-YTg>
+    <img src="images/Youtube_logo.png" alt="Scheme" width="200"/>
+</a>
+<br>
+Youtube : https://www.youtube.com/channel/UCpObidygxjgvrhPlzF5-YTg
+<br>
+
+<br>
+<a href=https://wa.me/6289679379527>
+    <img src="images/icon_whatsapp.png" alt="Scheme" width="200"/>
+</a>
+<br>
+Whatsapp : +6289679379527
+<br>
+
+
+# 5 GHz Deauther
+5 GHz deauther for BW16 RTL8720dn is available, now suppports Evil-Twin!:
+https://github.com/Cancro29/NETHERCAP/releases/tag/V.2.2.0-bw16
+
+# Download
+## ESP8266
+https://github.com/Cancro29/NETHERCAP/releases/tag/V.4.0.0-esp8266
+
+## About this Project
+This firmware is a heavily-modified version of M1z23R's ESP8266-EvilTwin v2 with Spacehuhn's Deauther CSS.
+It supports both ESP8266 and ESP-32. For now, it supports English,Indonesian, and custom language.
+
+## Password
+The default password for "NETHERCAP" is "deauther".
+## Pin and Control Scheme
+![Scheme](images/Quickguide.jpg)
+![Scheme](images/Quickguide2.jpg)
+
+.
