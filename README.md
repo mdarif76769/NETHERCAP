@@ -7,7 +7,7 @@ https://github.com/madarif76769/NETHERCAP/releases<br>
 </a>
 <br>
 Please join the new NETHERCAP group on Telegram by clicking the link below<br>
-https://t.me/+V3xt1UYs8EQyZWI1
+https://t.me/mdarif76769
 <br>
 For now, the group can only be joined by users coming from Indonesia. Sorry if your approval is not approved.<br>
 If you are from Indonesia and your approval is still pending, contact me at https://t.me/Cancro29. 
@@ -30,11 +30,11 @@ Whatsapp : +6289679379527
 
 # 5 GHz Deauther
 5 GHz deauther for BW16 RTL8720dn is available, now suppports Evil-Twin!:
-https://github.com/Cancro29/NETHERCAP/releases/tag/V.2.2.0-bw16
+https://github.com/mdarif76769/NETHERCAP/releases/tag/V.2.2.0-bw16
 
 # Download
 ## ESP8266
-https://github.com/Cancro29/NETHERCAP/releases/tag/V.4.0.0-esp8266
+https://github.com/mdarif76769/NETHERCAP/releases/tag/V.4.0.0-esp8266
 
 ## About this Project
 This firmware is a heavily-modified version of M1z23R's ESP8266-EvilTwin v2 with Spacehuhn's Deauther CSS.
