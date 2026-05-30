@@ -7,7 +7,7 @@ https://github.com/madarif76769/NETHERCAP/releases<br>
 </a>
 <br>
 Please join the new NETHERCAP group on Telegram by clicking the link below<br>
-https://t.me/mdarif76769
+https://t.me/mdarif76769bot
 <br>
 For now, the group can only be joined by users coming from Indonesia. Sorry if your approval is not approved.<br>
 If you are from Indonesia and your approval is still pending, contact me at https://t.me/Cancro29. 
