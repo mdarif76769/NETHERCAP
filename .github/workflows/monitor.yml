@@ -1,0 +1,33 @@
+name: Check External Repo Release
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  check-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch Latest Release Data
+        id: fetch
+        run: |
+          RESPONSE=$(curl -s https://api.github.com/repos/Cancro29/NETHERCAP/releases/latest)
+          TAG=$(echo $RESPONSE | jq -r .tag_name)
+          URL=$(echo $RESPONSE | jq -r .html_url)
+          echo "tag=$TAG" >> $GITHUB_ENV
+          echo "url=$URL" >> $GITHUB_ENV
+          
+      - name: Send Notification
+        if: ${{ env.tag != 'null' }}
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_CHAT_ID }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          message: |
+            🚀 নতুন রিলিজ পাওয়া গেছে!
+            
+            ভার্সন: ${{ env.tag }}
+            লিঙ্ক: ${{ env.url }}
+            
+            আপনার মনিটরিং সিস্টেম থেকে পাঠানো হয়েছে।
